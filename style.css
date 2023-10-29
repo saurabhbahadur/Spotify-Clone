@@ -1,54 +1,77 @@
 *{
     margin: 0;
+    padding: 0;
 }
 
 .container{
     display: flex;
     background-color: black;
     height: 100vh;
+    
 }
 
 .side_bar{
     
-    width: 25%;
+    width: 340px;
     padding: 5px 5px;
-  
+    margin: 5px 5px;
+    height: 90vh;
+    align-items: center;
+    border-radius: 1rem;
 }
 
-.side_bar a{
+.logo{
+    height: 3rem;
+    
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.panel_opt a{
     text-decoration: none;
     color: white;
     display: block;
-    
-
+   
+    height: 3rem;
 
 }
 
-.side_bar .side_panel {
-    width: 100%;
-    height: 24vh;
+.side_panel {
+    
+    height: 25vh;
     background-color: #121212;
     padding: 5px;
     margin: 2px 2px;
-    border-radius: 5%;
+    border-radius: 1rem;
 }
 
-.side_bar .side_library{
+ .side_library{
+
     height: 74vh;
-    width: 100%;
+    margin-top: 10px;
     background-color:#121212;
-    border-radius: 5%;
+    border-radius: 1rem;
+
 }
 
 .main{
-    background-color: green;
+    
     flex: 1;
+    padding: 5px;
+    margin: 2px 2px;
+    background-color: #121212;
+    border-radius: 1rem;
 }
 
 .player{
-    background-color: blue;
+    background-color: black;
     position: fixed;
     bottom: 0;
     width: 100%;
     height: 3rem;
+
 }
